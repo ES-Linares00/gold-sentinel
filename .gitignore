@@ -1,0 +1,28 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Variables de entorno (nunca subir claves reales)
+.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs (generados en tiempo de ejecución)
+logs/*.log
+logs/errors.log
+
+# Gráfica estática (se regenera con visualizer.py)
+data/analisis_oro.png
+
+# IDEs
+.vscode/
+.idea/
+*.DS_Store
+
+# NOTA: data/precios_oro.csv y data/noticias_oro.json SÍ se suben
+# para que Streamlit Cloud tenga datos iniciales al arrancar.
